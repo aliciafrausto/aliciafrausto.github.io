@@ -125,6 +125,7 @@ p.breadcrumbs {
 p.passage-intro {
 	font-size: 17px;
 	font-weight: bold;
+    padding: 5px 25px 20px 25px;
 }
 
 
@@ -182,3 +183,7 @@ header {
 
 .passage-scrolling {
 }
+
+
+
+

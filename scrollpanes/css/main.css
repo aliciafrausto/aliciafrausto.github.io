@@ -1,0 +1,184 @@
+body {
+	background: url("../img/body-bg.png") repeat #f0f0f0;
+}
+
+a {
+  color: #005a9e;
+}
+
+a:hover, a:focus {
+  color: #005580;
+}
+
+p {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+label, .int-choice-label, .choice_paragraph, .int-choice-desc,  .block_choice  {
+    font-weight: 400;
+    display: inline;
+        margin: 2px;
+}
+
+
+
+.int-choice-list > li {
+    display: table;
+    width: 100%;
+    margin: 4px 0 4px;
+}
+
+.int-choice-list {
+    padding: 0 0 0 20px;
+        font-size: 16px;
+}
+
+.int-choice-list > li {
+    display: table;
+    width: 100%;
+    margin: 4px 0 4px;
+}
+
+.container {
+
+}
+.content {
+	background-color: #fff;
+}
+
+/*  header     */
+.header {
+	background-color: #fff;
+    display: flex;
+    flex-direction: column;
+	 
+}
+
+
+
+.btn-primary {    
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #006dcc;
+    background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+    border-color: #0044cc #0044cc #002a80;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color: #0044cc;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    padding: 9px 18px;
+    /*margin: 4px 0;*/
+}
+
+.btn-primary:hover {
+     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,1f50a5+100,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #1f50a5 100%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#1f50a5 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e5799 0%,#1f50a5 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+}
+
+.btn-disabled, .btn-disabled:hover, .btn-disabled:active, .btn-disabled:visited,  .btn-disabled:focus, .btn-disabled:active:focus { 
+    color: #cccccc;
+    background-color: #f2f2f2;
+    background-image: none;
+    border-color: #cccccc;
+}
+
+
+.btn-group.nextback {
+     /*padding-left: 10px;*/
+}
+
+#crumbTrail {
+    position: relative;
+    z-index: 0;
+}
+/*.container.subheader {
+    height: 35px;
+    background-color: #666;
+    background-image: none;
+    border-top: 5px solid #049cdb;
+}*/
+
+p.breadcrumbs {
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 0px 0px;
+    color: #fff;
+}
+
+/*content*/
+p.passage-intro {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+
+.badge-inverse {
+    background-color: #333333;
+    padding-left: 9px;
+	padding-right: 9px;
+}
+
+.author, .passage-title {
+    text-align: center;
+}
+
+/***********************************************/
+
+
+.main {
+    background-color: #fff;
+}
+[class^='header-'] {
+    padding: 5px 25px 5px 25px;
+}
+.header-primary {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.header-secondary {
+    background-color: #666;
+    background-image: none;
+    border-top: 5px solid #049cdb;
+}
+.scroll-pane { 
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding: 20px 25px;
+}
+.scroll-pane.shadow { 
+    -webkit-box-shadow: inset 0 1px 0px 0 rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 0px 0 rgba(0,0,0,0.1);
+}
+.breadcrumbs {
+    margin: 0;
+}
+section { 
+    padding-top: 20px;
+}
+header {
+    position: relative;
+    z-index: 10;
+}
+.header-secondary.shadow {
+    -webkit-box-shadow: 0 1px 1px 0px rgba(0,0,0,0.4);
+    box-shadow: 0 1px 1px 0px rgba(0,0,0,0.4);
+}
+
+.passage-scrolling {
+}
